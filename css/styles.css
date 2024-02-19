@@ -540,9 +540,9 @@ header {
 }
 .subscribe-svg {
   width: 24px;
-  height: 24px;
+  height: 20px;
   fill: #fff;
-  /* margin-left: 16px; */
+  margin-left: 16px;
 }
 .form {
   display: flex;
