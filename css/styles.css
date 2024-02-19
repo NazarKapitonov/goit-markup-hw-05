@@ -467,7 +467,7 @@ header {
 
 .subscribe {
   max-width: 453px;
-  margin-left: auto;
+  margin-left: 80px;
 }
 .subscribe-container {
   display: flex;
@@ -499,8 +499,18 @@ header {
   min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
+  border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
   align-items: center;
 }
 .subscribe-svg {
