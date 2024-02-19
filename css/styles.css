@@ -499,6 +499,9 @@ header {
 }
 .subscribe-span {
   margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .subscribe-input {
   font-family: 'Roboto', sans-serif;
@@ -512,6 +515,8 @@ header {
   border-radius: 4px;
   min-width: 264px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  height: 40px;
+  background-color: transparent;
 }
 .subscribe-button {
   padding: 8px 24px;
@@ -531,11 +536,13 @@ header {
   justify-content: center;
   gap: 16px;
   align-items: center;
+  border: none;
 }
 .subscribe-svg {
   width: 24px;
-  height: 20px;
+  height: 24px;
   fill: #fff;
+  margin-left: 16px;
 }
 .form {
   display: flex;
