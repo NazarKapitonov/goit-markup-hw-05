@@ -463,6 +463,7 @@ header {
 .footer-container {
   display: flex;
   align-items: baseline;
+  margin-bottom: 8px;
 }
 .left-content {
   margin-right: 120px;
@@ -543,7 +544,7 @@ header {
   width: 24px;
   height: 24px;
   fill: #fff;
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 
 .backdrop {
@@ -722,6 +723,10 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
 .form-button:hover,
 .form-button:focus {
   background-color: #404bbf;
+}
+.form-svg {
+  width: 10px;
+  height: 8px;
 }
 .form-button {
   display: block;
