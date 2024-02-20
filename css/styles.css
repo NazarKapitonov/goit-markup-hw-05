@@ -595,6 +595,7 @@ header {
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
+  color: #fff;
 }
 .close-icon {
   fill: currentColor;
