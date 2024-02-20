@@ -483,10 +483,11 @@ header {
 .footer-container .a-team:hover {
   background-color: #31d0aa;
 }
-
+.right-content {
+  margin-right: 80px;
+}
 .subscribe {
   max-width: 453px;
-  margin-left: 80px;
 }
 .subscribe-container {
   display: flex;
@@ -604,9 +605,8 @@ header {
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
-  width: 24px;
-  height: 24px;
 }
+
 .modal-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -622,6 +622,12 @@ header {
 }
 .user-input-wrapper {
   position: relative;
+  margin-bottom: 22px;
+}
+.svg-icon {
+  top: 8px;
+  left: 16px;
+  position: absolute;
 }
 .icon-name {
   position: absolute;
@@ -678,14 +684,9 @@ header {
 .div-form {
   margin-bottom: 24px;
 }
-.privacy-form {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
+
 .checkbox-form {
+  color: var(--iris);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -696,9 +697,19 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #f4f4fd;
-  background-color: #404bbf;
+  fill: transparent;
+}
+input[type='checkbox']:checked + .privacy-form > .checkbox-form {
+  background-color: var(--blue);
   border: none;
+  fill: var(--cloud);
+}
+.privacy-form {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 .form-privacy {
   color: #4d5ae5;
