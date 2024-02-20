@@ -591,14 +591,10 @@ header {
   color: #2e2f42;
 }
 .modal-close-btn:hover .close-icon {
-  background-color: #404bbf;
   color: #fff;
-  border: none;
 }
 .modal-close-btn:focus .close-icon {
-  background-color: #404bbf;
   border: none;
-  color: #fff;
 }
 .close-icon {
   fill: currentColor;
