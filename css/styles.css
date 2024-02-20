@@ -587,7 +587,7 @@ header {
   background-color: #e7e9fc;
   color: #2e2f42;
 }
-.modal-close-btn:hover {
+.modal-close-btn:hover .modal-close-btn:focus {
   background-color: #404bbf;
   color: #fff;
   border: none;
