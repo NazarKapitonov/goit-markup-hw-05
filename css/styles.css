@@ -655,7 +655,7 @@ header {
 .input-form:focus {
   border-color: #4d5ae5;
 }
-.input-form:focus .svg-icon {
+.input-form:focus + .svg-icon {
   fill: #4d5ae5;
 }
 .input-form:focus .icon-name {
